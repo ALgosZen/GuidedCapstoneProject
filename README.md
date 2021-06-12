@@ -9,7 +9,7 @@
 Guided Capstone project
 
 ## Architecture
-![Alt text](setup/GuidedCapstone-Architecture Diagram.PNG?raw=true "Architecture")
+![Alt text](Screenshot/architecture.PNG?raw=true "Architecture")
 
 Spring Capital data sources come from stock exchange daily submissions files in a semi-structured text format. This means the records follow a certain formatting convention like JSON, but don’t obey a tabular structure formatted for a relational database. The data ingestion process parses the semi-structured data out so it can be loaded into Spark
 

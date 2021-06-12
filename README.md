@@ -49,7 +49,7 @@ The detailed steps and screenshots are in the document 'Guided Capstone Project.
 
 * CSV Records after parsing
 
-![Alt text](Screenshot/parsed-csv.PNG?raw=true "CSVAfterParse")
+![Alt text](Screenshot/parsed-CSV.PNG?raw=true "CSVAfterParse")
 
 * JSON Records before parsing
 

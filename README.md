@@ -1,7 +1,7 @@
 ## Table of contents
 * [General Info](#general-info)
 * [Description](#description)
-* [Learning Objectives](#Learning Objectives)
+* [Learning-Objectives](#Learning-Objectives)
 * [Prerequisites](#Prerequisites)
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -15,7 +15,7 @@ Guided Capstone project
 
 For a data processing system, the first step is to ingest the data sources. Your Spring Capital data sources come from stock exchange daily submissions files in a semi-structured text format. This means the records follow a certain formatting convention like JSON, but don’t obey a tabular structure formatted for a relational database. The data ingestion process parses the semi-structured data out so it can be loaded into Spark.
 
-## Learning Objectives
+## Learning-Objectives
 * Learn to parse CSV and JSON files
 * Create a Spark DataFrame with defined schema
 * Persist the Spark DataFrame into file system using partitioning

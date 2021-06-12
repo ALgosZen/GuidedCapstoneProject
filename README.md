@@ -1,6 +1,8 @@
 ## Table of contents
 * [General Info](#general-info)
 * [Description](#description)
+* [Learning Objectives](#Learning Objectives)
+* [Prerequisites](#Prerequisites)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
@@ -12,13 +14,16 @@ Guided Capstone project
 ![Alt text](Screenshot/architecture.PNG?raw=true "Architecture")
 
 For a data processing system, the first step is to ingest the data sources. Your Spring Capital data sources come from stock exchange daily submissions files in a semi-structured text format. This means the records follow a certain formatting convention like JSON, but don’t obey a tabular structure formatted for a relational database. The data ingestion process parses the semi-structured data out so it can be loaded into Spark.
-Learning Objectives:
-● Learn to parse CSV and JSON files
-● Create a Spark DataFrame with defined schema
-● Persist the Spark DataFrame into file system using partitioning
-Prerequisites:
-● Python: basics, string manipulation, control flow, exception handling, JSON parsing
-● PySpark: RDD from text file, custom DataFrames, write with partitions, Parquet
+
+## Learning Objectives
+* Learn to parse CSV and JSON files
+* Create a Spark DataFrame with defined schema
+* Persist the Spark DataFrame into file system using partitioning
+
+
+## Prerequisites
+* Python: basics, string manipulation, control flow, exception handling, JSON parsing
+* PySpark: RDD from text file, custom DataFrames, write with partitions, Parquet
 
 
 ## Technologies
@@ -28,9 +33,6 @@ Project is created in Azure Portal using the following services:
 
 
 ## Setup
-
-
-
 
 Follow the steps highlighted below. Check the  document Guided Capstone Project.docx for complete steps.
 

@@ -9,7 +9,8 @@
 Guided Capstone project
 
 ## Architecture
-![Alt text](GuidedCapstoneDesign.pdf?raw=true "Architecture")
+![Alt text](setup/GuidedCapstone-Architecture Diagram.PNG?raw=true "Architecture")
+
 Spring Capital data sources come from stock exchange daily submissions files in a semi-structured text format. This means the records follow a certain formatting convention like JSON, but don’t obey a tabular structure formatted for a relational database. The data ingestion process parses the semi-structured data out so it can be loaded into Spark
 
 The data that’s submitted by exchanges will be in two different formats: CSV and JSON. CSV means Comma Separated Values, so it is a text document that contains many values separated by commas. JSON is JavaScript Object Notation, in which text data is stored following a standard convention. Both of these are flat text files containing trade and quotes from different numbers of fields. The record type can be identified by column ‘rec_type’ which is a fixed position for CSV files.
